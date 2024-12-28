@@ -1,0 +1,211 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #ffffff;
+    color: #222222;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.nav-links {
+    list-style: none;
+}
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #000000;
+    text-decoration: none;
+}
+/* Basic reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style for the header */
+  header {
+    position: relative;
+    padding: 10px 20px;
+    background-color: #ffffff;
+  }
+  
+  /* Positioning the authentication buttons */
+  .auth-buttons {
+    position: absolute;
+    top: -35px;
+    right: 20px;
+  }
+  
+  /* General button styles */
+  .button {
+    color: rgb(255, 140, 0);
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+    display: inline-block;
+    transition: background-color 0.3s;
+  }
+  
+  /* Specific styles for Login button */
+  .login-button {
+    background-color: #FD8D3A; /* Blue */
+  }
+  
+  .login-button:hover {
+    background-color: #FD8D3A; /* Darker blue */
+  }
+  
+  /* Specific styles for Sign Up button */
+  .signup-button {
+    background-color: #e74c3c; /* Red */
+  }
+  
+  .signup-button:hover {
+    background-color: #c0392b; /* Darker red */
+  }
+  
+  @media (max-width: 768px) {
+    .auth-buttons {
+      top: -35px;
+      right: 10px;
+    }
+  
+    .button {
+      padding: 8px 12px;
+      font-size: 14px;
+    }
+  }
+  
+
+
+.hero {
+    background: #ffffff;
+    color: #000;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: auto;
+}
+
+.cta-button {
+    background: #fff;
+    border: 2px solid #fa7436;
+    color: #FA7436;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+   
+}
+
+
+section {
+    padding: 2rem 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.feature-items, .pricing-tables {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature-item, .pricing-table {
+    background: #f4f4f4;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 10px;
+    flex: 1;
+    max-width: 30%;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background: #e8491d;
+    color: #fff;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        text-align: center;
+    }
+
+    .nav-links li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .feature-items, .pricing-tables {
+        flex-direction: column;
+    }
+
+    .feature-item, .pricing-table {
+        max-width: 100%;
+    }
+}
